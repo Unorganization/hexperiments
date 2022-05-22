@@ -1,34 +1,6 @@
 module Hsmain where
 
 import Data.Char -- added for isLower
---Instructions
-
--- Function call:
-e_v3 = max 5 7
-e_v4 = (max 5) 7
-e_v5a = (max 5)
-e_v5b = e_v5a 7
--- "max 5" returns a function that takes one argument and
---   returns 5 + the argument.
--- Therefore e_v3, e_v4, ev_5b all return 7, the max of 5 and 7.
-
--- Function definition:
-e_inc = \x -> x+1
--- Syntax: <newname> = <lambda>
--- <lambda>: \<arg> -> <expression>
-
-e_add_a = \x -> (\y -> x + y)
-e_add_b = \x -> \y -> x + y
-
-e_add_c = \x y -> x + y
--- <lambda>: \<arg1> <arg2>  ->  <expression>
-
-e_add_d x y = x + y
--- Syntax: <newname> <args> = <expression>
-
-e_inc' x = x + 1
-
-
 
 --Examples:
 string1 = "hello"

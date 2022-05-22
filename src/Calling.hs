@@ -1,4 +1,4 @@
-module Function where
+module Calling where
 
 max1 = max 5 7
 max2 = (max 5) 7
