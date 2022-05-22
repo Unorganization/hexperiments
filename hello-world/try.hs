@@ -1,4 +1,3 @@
---try = do
---  putStrLn "Hello"
---  putStrLn "World"
---  putStrLn "Stuff"
+-- | Main
+main :: IO ()
+main = putStrLn "Hello, World!"
