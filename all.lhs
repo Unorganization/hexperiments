@@ -4,37 +4,6 @@ import Data.Char -- added for isLower
 
 --Examples:
 
-square x = x * x
-multiMax a b x = (max a b) * x
-
-v4 = square 4 -- 16
-v5 = multiMax 1 9 5 -- 45
-
-v6 = show v5 -- "45"
-
-v7 = 37 == 37 -- True
-v8 = 37 /= 37 -- False
-v81 = v7 || v8 -- True
-v82 = not v81 -- False
-v83 = v81 || v7 && False -- True
-
-v9 = negate 3.3 -- -3.3
-v10 = abs(-3) -- 3
-v11 = signum (-3) -- -1
-v12 = 7 `div` 2 -- 3
-v13 = 7 `mod` 2 -- 1
-v14 = 7.0 / 2.0 -- 3.5
-v15 = recip 2.0 -- 0.5
-
-posOrNeg x =
-  if x >= 0
-  then "Positive"
-  else "Negative"
-
-posOrNeg' x =
-  case x >= 0 of {
-    True -> "Positive";
-    False -> "Negative" }
 
 -- recursion
 pow2 n =
