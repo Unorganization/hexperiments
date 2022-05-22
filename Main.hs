@@ -16,9 +16,11 @@ main =
     -- print Expression.expression1
     -- print Expression.expression2
 
-    -- print Calling.max1
-    -- print Calling.max2
-    -- print Calling.max3
+    -- print Calling.example1
+    -- print Calling.example2
+    print Calling.example3
+    print Calling.example4
+    print Calling.sqrt1
 
     -- print Defining.example
     -- print Defining.example1
@@ -27,4 +29,4 @@ main =
     -- print Defining.example4
     -- print Defining.example1a
 
-    -- print Strings.greeting
+    print Strings.greeting

@@ -3,13 +3,7 @@ module Hsmain where
 import Data.Char -- added for isLower
 
 --Examples:
-string1 = "hello"
-string2 = "world"
-greeting = string1 ++ " " ++ string2
 
-v1 = sqrt 3
-v2 = max 5 7
-v3 = max (5 + 2) (sqrt 17)
 
 square x = x * x
 multiMax a b x = (max a b) * x
