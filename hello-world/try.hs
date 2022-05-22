@@ -1,4 +1,4 @@
-main = do
-  putStrLn "Hello"
-  putStrLn "World"
-  putStrLn "Stuff"
+--try = do
+--  putStrLn "Hello"
+--  putStrLn "World"
+--  putStrLn "Stuff"
