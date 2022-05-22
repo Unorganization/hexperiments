@@ -1,4 +1,6 @@
-module Test where
+module Helloworld where
 
-main :: IO ()
-main = putStrLn "Hello, World!"
+try :: IO ()
+try = putStrLn "Hello, World!"
+
+

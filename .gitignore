@@ -1,7 +1,7 @@
 *.exe
-dist
 main.
 try.
+dist
 *.orig
 dist-*
 cabal-dev
