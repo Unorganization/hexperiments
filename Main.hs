@@ -5,6 +5,7 @@ import Expression
 main :: IO ()
 main =
   do
+    print "** start **"
     print Helloworld.try
     print Goodbye.try
     print Expression.expression1
