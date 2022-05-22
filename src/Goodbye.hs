@@ -1,5 +1,5 @@
 module Goodbye where
 
-try = "Goodbye!"
+result = "Goodbye!"
 
 

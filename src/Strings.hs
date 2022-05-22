@@ -3,5 +3,5 @@ module Strings where
 --Examples:
 string1 = "hello"
 string2 = "world"
-greeting = string1 ++ " " ++ string2
+greeting_result = string1 ++ " " ++ string2
 

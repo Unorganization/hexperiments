@@ -9,18 +9,18 @@ main :: IO ()
 main =
   do
     print "** start **"
-    print Helloworld.try
+    print Helloworld.result
 
-    print Goodbye.try
+    print Goodbye.result
 
     print Expression.add_result
     print Expression.add_result
     print Expression.max_result
     print Expression.sqrt_result
 
-    print Calling.max5and7_a
-    print Calling.max5and7_b
-    print Calling.max5and7_c
+    print Calling.max5and7_a_result
+    print Calling.max5and7_b_result
+    print Calling.max5and7_c_result
 
     print Defining.inc_result
     print Defining.add_result
@@ -29,4 +29,4 @@ main =
     print Defining.add4_result
     print Defining.inc2_result
 
-    print Strings.greeting
+    print Strings.greeting_result
