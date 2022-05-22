@@ -1,4 +1,5 @@
 dist
+main.
 *.orig
 dist-*
 cabal-dev
