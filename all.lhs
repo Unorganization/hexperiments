@@ -3,11 +3,6 @@ module Hsmain where
 import Data.Char -- added for isLower
 --Instructions
 
--- Expression:
---   5 + 5
-e_v1 = 5 + 5
-e_v2 = (5 + 5)
-
 -- Function call:
 e_v3 = max 5 7
 e_v4 = (max 5) 7
