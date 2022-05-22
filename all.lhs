@@ -4,7 +4,6 @@ import Data.Char -- added for isLower
 
 --Examples:
 
-
 square x = x * x
 multiMax a b x = (max a b) * x
 
