@@ -1,4 +1,7 @@
 import Helloworld
 
 main :: IO ()
-main = Helloworld.try
+main =
+  do
+    putStrLn Helloworld.try
+    putStrLn Helloworld.try
