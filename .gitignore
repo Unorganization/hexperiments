@@ -1,5 +1,6 @@
 dist
 main.
+try.
 *.orig
 dist-*
 cabal-dev
