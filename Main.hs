@@ -5,6 +5,7 @@ import Calling
 import Defining
 import Strings
 import Conditions
+import Recursion
 
 main :: IO ()
 main =
@@ -16,4 +17,5 @@ main =
     Calling.result
     Defining.result
     Conditions.result
+    Recursion.result
     print Goodbye.result

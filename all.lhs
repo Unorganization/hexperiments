@@ -5,22 +5,7 @@ import Data.Char -- added for isLower
 --Examples:
 
 
--- recursion
-pow2 n =
-      if n == 0
-      then 1
-      else 2 * (pow2 (n-1))
 
-repeatString str n =
-   if n == 0
-   then ""
-   else str ++ (repeatString str (n-1))
-
-
-sumSeq n = 
-    if n == 0
-    then 0
-    else n + sumSeq (n-1)
 
 -- lists
 x = [1,2,3]
