@@ -27,3 +27,23 @@ posOrNeg' x =
     False -> "Negative" }
 posOrNeg'_result1 = posOrNeg' 5
 posOrNeg'_result2 = posOrNeg' (-5)
+
+result :: IO ()
+result =
+  do
+    print result_1
+    print result_2
+    print result_3
+    print result_4
+    print result_5
+    print result_6
+    print result_7
+    print result_8
+    print result_9
+    print result_10
+    print result_11
+    print result_12
+    print posOrNeg_result1
+    print posOrNeg_result2
+    print posOrNeg'_result1
+    print posOrNeg'_result2

@@ -19,3 +19,13 @@ mult_max_result = mult_max 1 9 5 -- 45
 
 mult_max_str_result = show mult_max_result -- "45"
 
+result :: IO ()
+result =
+  do
+    print add_result
+    print add_result
+    print max_result
+    print sqrt_result
+    print square_result
+    print mult_max_result
+    print mult_max_str_result

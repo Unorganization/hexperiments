@@ -26,3 +26,12 @@ inc2 x = x + 1
 inc2_result = inc 5
 -- inc1 is same as inc with simpler syntax
 
+result :: IO ()
+result =
+  do
+    print inc_result
+    print add_result
+    print add2_result
+    print add3_result
+    print add4_result
+    print inc2_result

@@ -14,3 +14,10 @@ max5and7_b_result = (max 5) 7
 max5and7_c_result = max 5 7
 -- This produces the exact same code -- it's syntatic sugar to make it look like functions can have more than one parameter.  Symnaticaly, this too first creates the equivalent of the max5 function anonymously and then calls it with 7.
 -- (although internally the compiler will optimize out the temoporary creation of the max5 function)
+
+result :: IO ()
+result =
+  do
+    print max5and7_a_result
+    print max5and7_b_result
+    print max5and7_c_result
