@@ -5,16 +5,6 @@ import Data.Char -- added for isLower
 --Examples:
 
 
-
-
--- lists
-x = [1,2,3]
-empty = []
-y = 0 : x -- [0,1,2,3]
-x' = 1 : (2 : (3 : []))
-x'' = 1 : 2 : 3 : []
-x''' = [1..3] -- [1,2,3]
-
 str = "abcde"  -- "abcde"
 str' = 'a' : 'b': 'c' : 'd': 'e' : []  -- "abcde"
 

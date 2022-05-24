@@ -6,6 +6,7 @@ import Defining
 import Strings
 import Conditions
 import Recursion
+-- import Lists
 
 main :: IO ()
 main =
@@ -18,4 +19,5 @@ main =
     Defining.result
     Conditions.result
     Recursion.result
+    -- Lists.result
     print Goodbye.result
