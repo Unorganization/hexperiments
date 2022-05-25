@@ -6,11 +6,10 @@ import Defining
 import Strings
 import Conditions
 import Recursion
--- import Lists
+import Lists
 
 main :: IO ()
-main =
-  do
+main = do
     print "** start **"
     print Helloworld.result
     Expression.result
@@ -19,5 +18,5 @@ main =
     Defining.result
     Conditions.result
     Recursion.result
-    -- Lists.result
+    Lists.result
     print Goodbye.result
