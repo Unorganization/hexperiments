@@ -60,6 +60,18 @@ removeOdd nums =
     else removeOdd (tail nums)
 removeOddResult = removeOdd [1,2,3,4,5,6]
 
+index_v1 = [1,2,3,4,5] !! 2 -- 3
+drop_v1 = drop 3 [1,2,3,4,5] -- [4,5]
+sum_v1 = sum [1,2,3,4,5] -- 15
+product_v1 = product [1,2,3,4,5] -- 120
+reverse_v1 = reverse [1,2,3,4,5] -- [5,4,3,2,1]
+
+factorial n = product [1..n]
+factorial_result = factorial 5
+
+average ns = sum ns `div` length ns
+average_result = average [10, 1, 3]
+
 resultListFunctions :: IO ()
 resultListFunctions =
   do
@@ -79,15 +91,13 @@ resultListFunctions =
     print xx14
     print doubleResult
     print removeOddResult
-
-index_v1 = [1,2,3,4,5] !! 2 -- 3
-drop_v1 = drop 3 [1,2,3,4,5] -- [4,5]
-sum_v1 = sum [1,2,3,4,5] -- 15
-product_v1 = product [1,2,3,4,5] -- 120
-reverse_v1 = reverse [1,2,3,4,5] -- [5,4,3,2,1]
-
-factorial n = product [1..n]
-average ns = sum ns `div` length ns
+    print index_v1
+    print drop_v1
+    print sum_v1
+    print product_v1
+    print reverse_v1
+    print factorial_result
+    print average_result
 
 result :: IO ()
 result =
