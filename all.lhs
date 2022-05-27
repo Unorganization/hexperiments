@@ -2,54 +2,6 @@ module Hsmain where
 
 import Data.Char -- added for isLower
 
---Examples:
-
-
-str = "abcde"  -- "abcde"
-str' = 'a' : 'b': 'c' : 'd': 'e' : []  -- "abcde"
-
-xx1 = [1,2,3] ++ [4,5] -- [1,2,3,4,5]
-xx2 = "hello " ++ "world"
-
--- list functions
-xx3 = head [1,2,3] -- 1
-xx4 = tail [1,2,3] -- [2,3]
-xx5 = head (tail [1,2,3]) -- 2
-xx5a = init [1,2,3] -- [1,2]
-xx5b = last [1,2,3] -- 3
-
-xx6 = null [] -- True
-xx7 = null [1,2] -- False
-
-xx8 = take 3 [1,2,3,4,5] -- [1,2,3]
-xx9 = drop 3 [1,2,3,4,5] -- [4,5]
-xx10 = length [1,2,3,4,5] -- 5
-xx11 = sum [1,2,3,4,5] -- 15
-xx12 = product [1,2,3,4,5] -- 120
-xx13 = [1,2,3] ++ [4,5] -- [1,2,3,4,5]
-xx14 = reverse [1,2,3,4,5] -- [5,4,3,2,1]
-
-double nums =
-  if null nums
-  then []
-  else (2 * (head nums)) : (double (tail nums))
-
-removeOdd nums =
-  if null nums
-  then []
-  else
-    if (mod (head nums) 2) == 0 -- even?
-    then (head nums) : (removeOdd (tail nums))
-    else removeOdd (tail nums)
-
-index_v1 = [1,2,3,4,5] !! 2 -- 3
-drop_v1 = drop 3 [1,2,3,4,5] -- [4,5]
-sum_v1 = sum [1,2,3,4,5] -- 15
-product_v1 = product [1,2,3,4,5] -- 120
-reverse_v1 = reverse [1,2,3,4,5] -- [5,4,3,2,1]
-
-factorial n = product [1..n]
-average ns = sum ns `div` length ns
 
 -- tuples
 t1 = (1, "hello")
